@@ -38,7 +38,7 @@ for row in load_certificate_data():
         pdf.section(paragraph_title)
 
     output_path_final = os.path.dirname(os.path.abspath(__file__))
-    output_path_final = os.path.join(output_path_final, 'output')
+    output_path_final = os.path.join(output_path_final, 'output_syanne')
     if not os.path.exists(output_path_final):
         os.makedirs(output_path_final)
     output_path_final = os.path.join(output_path_final, name)

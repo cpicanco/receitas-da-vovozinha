@@ -145,4 +145,12 @@ git push origin minhas-mudancas
 
 Video: https://www.youtube.com/watch?v=UR9X2VBECE4&ab_channel=WillianJusten
 
-- Um arquivo `.gitignore` contém uma lista de arquivos. Ele pode ser criado em qualquer diretório e diz para o `git` que os arquivos listados devem ser ignorados. Ou seja, os arquivos listados e suas modificações não serão rastreadas. Isso é útil porque ao longo do processo de desenvolvimento muitos arquivos temporários, reduldantes ou irrelevantes são criados e devem ser ignorados. Um exemplo concreto é o caso de arquivos executáveis. Eles são grandes e possuem um formato binário, em vez de texto puro como nos arquivos do código fonte, sendo, portanto, incompatíveis com a lógica de funcionamento do `git`. Outro exemplo são os arquivos temporários de backup e de cache criados automaticamente pelas ferramentas de desenvolvimento. 
+- Um arquivo `.gitignore` contém uma lista de arquivos. Ele pode ser criado em qualquer diretório e diz para o `git` que os arquivos listados devem ser ignorados. Ou seja, os arquivos listados e suas modificações não serão rastreadas. Isso é útil porque ao longo do processo de desenvolvimento muitos arquivos temporários, reduldantes ou irrelevantes são criados e devem ser ignorados. Um exemplo concreto é o caso de arquivos executáveis. Eles são grandes e possuem um formato binário, em vez de texto puro como nos arquivos do código fonte, sendo, portanto, incompatíveis com a lógica de funcionamento do `git`. Outro exemplo são os arquivos temporários de backup e de cache criados automaticamente pelas ferramentas de desenvolvimento.
+
+# License
+
+Do not reuse names, other personal information and files inside
+
+    */assets
+
+Everything else is licensed under the MIT license unless explicitly stated.
